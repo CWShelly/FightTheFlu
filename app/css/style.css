@@ -1,0 +1,141 @@
+
+body {
+  padding-bottom: 400px;
+
+}
+
+.navbar-fixed-top{
+/*color: white;*/
+background-color: rgba(0, 0, 255, .5);
+
+}
+
+.navbar-fixed-top a{
+color: white;
+/*background-color: rgba(0, 0, 255, .5);*/
+}
+
+.navbar-fixed-top a:hover{
+  color: #243F5C;
+}
+
+
+.btn-primary{
+  border: 2px white solid;
+  background-color: rgba(0, 0, 0, 0.25);
+  /*height: 2.5vw;*/
+  /*width:auto;*/
+
+}
+
+.btn-lg{
+  padding-top: 2%;
+  padding: 5px 8px;
+  font-size: 4vw;
+  line-height: 1.3333333;
+  border-radius: 0px;
+}
+
+.carousel-caption{
+  margin-bottom: 10%;
+}
+
+.carousel-caption h1{
+font-size: 4.5vw;
+}
+
+
+.icon-bar{
+  color: blue;
+}
+
+
+.storycontain{
+  border: 4px solid #243F5C;
+  background-color: #243F5C;
+  border-radius: 10px;
+}
+img{
+  position: relative;
+  height:400px;
+  width: auto;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  z-index: 10;
+  color:white;
+  font-size: 2.5vw;
+  padding-bottom: 23%;
+  height: .5vw;
+}
+
+.space{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+p{
+  font-size: 3vw;
+}
+
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+}
+
+#myCarousel1{
+  padding: 5%;
+  background-color: #243F5C;
+
+}
+
+#myCarousel2{
+  background-image: url(../img/bg/woven_paper.jpg);
+  background-repeat: repeat-y;
+}
+
+#myCarousel2 p{
+  padding-top: 5%;
+  height:400px;
+}
+
+.thumbnail{
+  border: 1px black solid;
+}
+
+.news{
+  border: 3px solid #243F5C;
+  background-image: url(../img/bg/newspaperbg.jpg);
+
+
+}
+
+
+h1{
+  color: white;
+}
+
+
+
+.newsContainer{
+  padding-bottom: 5%;
+  padding-top:5%;
+}
+
+.fieldset{
+  padding-bottom: 5%;
+}
+
+.inTheNews{
+  color: #243F5C;
+}
+#features img{
+  height: 20vw;
+  width: auto;
+}
+
+.newsP{
+  font-size:1.5vw;
+  color:black;
+}

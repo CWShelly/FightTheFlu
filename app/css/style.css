@@ -5,7 +5,7 @@ body {
 }
 
 .navbar-fixed-top{
-background-color: rgba(0, 0, 255, .5);
+background-color: rgba(255, 105, 180, .6);
 
 }
 
@@ -15,13 +15,19 @@ color: white;
 }
 
 .navbar-fixed-top a:hover{
-  color: #243F5C;
+  color: rgb(255, 105, 180);
 }
 
 
 .btn-primary{
   border: 2px white solid;
   background-color: rgba(0, 0, 0, 0.25);
+  border: 2px white solid;
+}
+
+.btn-primary:hover{
+  background-color: rgb(127, 255, 0);
+  border: 2px rgb(255, 105, 180) solid;
 }
 
 .btn-lg{
@@ -59,13 +65,10 @@ color: #243F5C;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
 
-.icon-bar{
-  color: blue;
-}
 
 
 .storycontain{
-  border: 4px solid #243F5C;
+  border: 3px solid #243F5C;
   background-color: #243F5C;
   border-radius: 10px;
   margin-bottom: 2%;
@@ -116,7 +119,8 @@ p{
 
 #myCarousel1{
   padding: 5%;
-  background-color: #243F5C;
+  /*background-color: #243F5C;*/
+  background-color: rgb(127, 255, 0);
 
 }
 
@@ -170,7 +174,7 @@ h1{
 }
 
 .footer{
-  background-color: #243F5C;
+  background-color: rgba(255, 105, 180, .6);
 }
 
 .footer a{

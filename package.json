@@ -4,8 +4,11 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "jquery": "^2.2.4"
+    "jquery": "^2.2.4",
+    "mongoose": "^4.5.4",
+    "superagent": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {

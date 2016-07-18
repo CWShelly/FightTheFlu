@@ -1,5 +1,6 @@
 .DS_Store
 **/*node_modules
+**/*db
 .bootstrap-theme.css
 .bootstrap-theme.min.css
 .bootstrap.min.css.map

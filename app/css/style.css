@@ -68,8 +68,8 @@ color: #243F5C;
 
 
 .storycontain{
-  border: 3px solid #243F5C;
-  background-color: #243F5C;
+  /*border: 3px solid #243F5C;*/
+  background-color: #272C2E;;
   border-radius: 10px;
   margin-bottom: 2%;
 }
@@ -90,11 +90,14 @@ legend{
 
 img{
   position: relative;
-  height:400px;
+  /*height:400px;*/
   width: auto;
+    /*border: 2px solid white;*/
 }
 
-
+h2{
+  color: white;
+}
 .carousel-caption {
   position: absolute;
   z-index: 10;
@@ -117,22 +120,28 @@ p{
   background-image: none;
 }
 
+
+
+
+
 #myCarousel1{
   padding: 5%;
-  /*background-color: #243F5C;*/
-  background-color: rgb(127, 255, 0);
-
 }
 
 #myCarousel2{
-  background-image: url(../img/bg/woven_paper.jpg);
-  background-repeat: repeat-y;
+  font-family: 'Raleway', sans-serif;
+  word-spacing: 7px;
+  color:white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+
 }
 
 #myCarousel2 p{
-  padding-top: 5%;
-  height:400px;
+  font-size: 2.5vw;
 }
+
 
 .thumbnail{
   border: 1px black solid;
@@ -180,4 +189,27 @@ h1{
 .footer a{
   color: white;
 
+}
+
+/*ol.carousel-indicators{
+  margin-top: 50%;
+}*/
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  /*border-radius: 10px;*/
+    border-radius: 0px;
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #fff;
 }

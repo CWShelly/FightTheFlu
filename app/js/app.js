@@ -12,3 +12,8 @@ var x = function(event){
     $('input[name=email]').val('');
 
 };
+
+
+$('#myCarousel2').carousel({
+    interval: false
+});

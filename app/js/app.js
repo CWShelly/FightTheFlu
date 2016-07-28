@@ -13,6 +13,10 @@ var x = function(event){
 
 };
 
+$('#myCarousel1').carousel({
+    interval: 1000
+});
+
 
 $('#myCarousel2').carousel({
     interval: false

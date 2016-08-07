@@ -2,7 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 
-app.set('port', (process.env.PORT || 5000));
+// app.set('port', (process.env.PORT || 5000));
+app.set('port', (80));
 
 
 const emailRouter = require(__dirname + '/server/router/email_router');

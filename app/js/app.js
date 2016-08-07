@@ -14,7 +14,7 @@ var x = function(event){
 };
 
 $('#myCarousel1').carousel({
-    interval: 1000
+    interval: 3000
 });
 
 

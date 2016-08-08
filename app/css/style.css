@@ -3,19 +3,23 @@ body {
 
 }
 
+.navbar-inverse li:hover{
+  color: red;
+  background-color: yellow;
+}
 .navbar-fixed-top{
 /*background-color: rgba(255, 105, 180, .6);*/
 background-color: rgba(52, 55, 56, .6);
 
-}
 
-.navbar-fixed-top a{
+}
+.navbar-inverse .navbar-nav > li > a{
 color: white;
-
 }
 
-.navbar-fixed-top a:hover{
-  color: rgb(255, 105, 180);
+
+.navbar-inverse .navbar-nav > li > a:hover {
+background-color: rgb(255, 105, 180);
 }
 
 
@@ -107,10 +111,22 @@ h2{
   height: .5vw;
 }
 
-/*.space{
-  padding-top: 5%;
-  padding-bottom: 5%;
-}*/
+.space{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /*background-color: yellow;*/
+  /*border: 1px solid red;*/
+}
+
+.newsThing1{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 1px black solid;
+}
+
+.newsThing{
+  padding-top: 3%;
+}
 
 p{
   font-size: 3vw;
